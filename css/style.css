@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:44px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(150deg, #0b7d91 16.62%, #050567f1 85.61%);
+}
+
+.cabecalho-texto{
+    height: 72px;
+    transition: 0.5s;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap:32px;
+}
+
+.menu-item{
+   color:aliceblue !important;
+   margin-top: -15px;
+   transition: 0.5s;
+}
+
+.menu-item:hover{
+    color:rgba(250, 250, 249, 0.009) !important;
+    margin-top: -18px;
+}
+
+.icon-insta{
+   width: 26px;
+   margin-top: -15px;
+}
+
+.conteudo{
+    margin-bottom: 200px;  
+}
+
+.conteudo-principal{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(68.15deg, #187c8e 16.62%, #050567f1 85.61%);
+}
+
+.conteudo-escrito{
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.principal-sub-titulo{
+    font-weight: 400;
+    font-size:24px;
+    color: #ffffff !important;
+}
+
+.principal-button{
+    background-color: rgba(123, 90, 28, 0);
+    color: white;
+    border: white solid 1px;
+    width: 780px;
+    height: 60px;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: pointer;  
+}
+
+.principal-button:hover{
+   background-color: rgb(255, 255, 255);
+   color:black;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #fffffff1 85.61%);
+    padding: 200px;
+}
+
+.titulo-secundario{
+    margin-top: -150px;
+    font-weight: 400;
+    font-size:34px;
+    margin-left: 320px;
+    color: rgb(7, 76, 113);
+    font-family: "Montserrat", sans-serif;
+}
+
+.conteudo-paragrafo{
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-family: "Montserrat", sans-serif;
+    font-size:18px;
+    margin-left: 60px;
+    background-color: rgb(8, 119, 121);
+    padding: 9px;
+    content: "•"; 
+}
+
+.foto-principal{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  border:2px solid #ffffff; 
+  background-image: url('https://external.fbel7-1.fna.fbcdn.net/emg1/v/t13/4751359841028107841?stp=dst-src&url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2Fv1.Y2lkPWFlZWNjYzExYjFzdjh4ZDJuZTRwcjRpZDJudW5ucDhnMmZvbGd5cTN3YTUwdG5tbCZlcD12MV9naWZzX2dpZklkJmN0PWc%2FJTjiT1dvFdSpi%2F200.gif&utld=giphy.com&ccb=13-1&oh=06_Q399m-miDTrxvEt-S2Oz5NZy2CMH3VjR37vtX2OwCjbZLo4&oe=66EA202E&_nc_sid=1d65fc'); 
+}
+
+.conteudo-img{
+    margin-top: 100px;
+    margin: left 100%;;
+}
+.img-java{
+    width:30%;
+}
+
+.img-html{
+    width: 20%;
+}
+
+.img-css{
+    width: 15%;
+    margin:30px;
+}
+
+.img-mysql{
+    width: 23%;
+    margin: 30px;   
+}
+
+.titulo-terceiro{
+    color: rgb(8, 85, 95);
+}
+
+.conteudo-terceiro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #fffffff1 85.61%);
+    padding: 200px;
+}
+
+
